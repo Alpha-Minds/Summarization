@@ -42,7 +42,7 @@ def build_graph(model):
             [
                 (
                     "system",
-                    "Return only a valid JSON object with two keys: "
+                    "Return only a valid JSON object with two keys (result in arabic with Egyptian Accent): "
                     '"summary" (a concise paragraph of at most 50 words) and '
                     '"takeaways" (an array of three to five short strings). '
                     "Use simple language and only use information from the article. "
